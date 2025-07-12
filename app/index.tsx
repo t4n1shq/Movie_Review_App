@@ -1,9 +1,12 @@
 import { Text, View } from "react-native";
+import {verifyInstallation} from "nativewind"
 
 export default function Index() {
+  verifyInstallation()
+
   return (
     <View className="flex-1 justify-center items-center">
-      <Text className="font-bold text-primary text-5xl">Welcome!</Text>
+      <Text className="font-extrabold text-primary text-5xl">Welcome!</Text>
     </View>
   );
 }
