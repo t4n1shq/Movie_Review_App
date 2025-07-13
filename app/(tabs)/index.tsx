@@ -1,5 +1,6 @@
 import { Text, View } from "react-native";
-import {verifyInstallation} from "nativewind"
+import { verifyInstallation } from "nativewind"
+import { Link } from "expo-router";
 
 export default function Index() {
   verifyInstallation()
